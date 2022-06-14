@@ -1,0 +1,39 @@
+.wpo-protfolio-area-3 .wpo-protfolio-text,
+.wpo-protfolio-area-4 .wpo-protfolio-text {
+    position: relative;
+    padding: 0;
+    padding-top: 40px;
+}
+.protfolio-btn{
+    margin-top: 30px;
+}
+.wpo-protfolio-area-3 .wpo-protfolio-text h2,
+.wpo-protfolio-area-4 .wpo-protfolio-text h2 {
+    color: #c8a770;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.wpo-protfolio-area-3 .wpo-protfolio-text span,
+.wpo-protfolio-area-4 .wpo-protfolio-text span {
+    color: #666;
+}
+
+.wpo-protfolio-area-3 .protfolio-btn a,
+.wpo-protfolio-area-4 .protfolio-btn a {
+    color: #121127;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wpo-protfolio-area-3 .protfolio-btn,
+.wpo-protfolio-area-4 .protfolio-btn {
+    text-align: center;
+}
+
+
+.wpo-protfolio-area-3 .protfolio-btn .theme-btn-s2,
+.wpo-protfolio-area-4 .protfolio-btn .theme-btn-s2 {
+    font-size: 14px;
+    color: #fff;
+}

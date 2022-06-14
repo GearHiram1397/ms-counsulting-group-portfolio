@@ -1,0 +1,48 @@
+.error-404-section {
+    text-align: center;
+}
+
+.error-404-section .error-message {
+    margin-top: 70px;
+    padding: 0 200px;
+}
+
+@media (max-width: 991px) {
+    .error-404-section .error-message {
+        margin-top: 50px;
+        padding: 0 100px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .error-404-section .error-message {
+        padding: 0;
+    }
+    .protfolio-cro-area .owl-carousel .owl-item img {
+        height: 375px;
+        object-fit: cover;
+    }
+    .gallery-active .owl-nav div {
+        left: 34%;
+    }
+    .protfolio-cro-area {
+        padding-bottom: 100px;
+    }
+}
+
+.error-404-section .error-message h3 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin: 0 0 0.8em;
+    color: #062856;
+}
+
+.error-404-section .error-message p {
+    margin-bottom: 1.8em;
+}
+
+.error-message .theme-btn-s4 {
+    background-color: #fe3e57;
+    color: #fff;
+}

@@ -1,0 +1,69 @@
+.wpo-about-area-3 .about-s2-img,
+.wpo-about-area-5 .about-s2-img {
+    margin-top: 0;
+    background: #fff;
+    box-shadow: 0px 2px 14.25px 0.75px rgba(58, 58, 58, 0.15);
+}
+
+.wpo-about-area-3 .wpo-about-wrap,
+.wpo-about-area-5 .wpo-about-wrap {
+    margin-top: 0px;
+}
+
+.wpo-about-area-3 .wpo-about-text h2,
+.wpo-about-area-5 .wpo-about-text h2 {
+    color: #233849;
+    margin-top: 0;
+}
+
+.wpo-about-area-3 .wpo-about-text p,
+.wpo-about-area-5 .wpo-about-text p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.wpo-about-area-3 .wpo-about-text ul li,
+.wpo-about-area-5 .wpo-about-text ul li {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.wpo-about-area-3 .wpo-about-text ul li:before,
+.wpo-about-area-5 .wpo-about-text ul li:before {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    background: #c8a770;
+    content: "";
+    border-radius: 50%;
+}
+
+.wpo-about-area-3 .wpo-about-text ul,
+.wpo-about-area-5 .wpo-about-text ul {
+    margin-bottom: 20px;
+}
+
+.wpo-about-area-3 .wpo-about-text,
+.wpo-about-area-5 .wpo-about-text {
+    padding-top: 100px;
+}
+
+
+.wpo-about-area-5 .wpo-about-text{
+    padding-top: 50px;
+}
+.wpo-about-area-5 .wpo-about-text h2 {
+    font-size: 48px;
+}
+
+
+@media(max-width: 992px) {
+    .wpo-about-area-3 .wpo-about-text, 
+    .wpo-about-area-5 .wpo-about-text {
+        padding-top: 15px;
+    }
+
+}

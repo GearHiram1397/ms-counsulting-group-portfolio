@@ -1,0 +1,133 @@
+
+.wpo-minimal-wrap {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.wpo-minimal-wrap .video-holder {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.wpo-minimal-wrap .video-holder a,
+.format-video .video-holder a {
+    background-color: #fff;
+    -webkit-animation: spineerb 2s infinite;
+    animation: spineerb 2s infinite;
+}
+
+.wpo-minimal-wrap .video-holder a:before {
+    border-left: 10px solid #111;
+}
+
+
+.wpo-project-details-list {
+    padding: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(49, 49, 49, 0.1);
+}
+
+.wpo-project-details-text {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.wpo-project-details-text-3 {
+    text-align: center;
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+}
+
+.wpo-project-details-text h2,
+.wpo-project-details-text-3 h2 {
+    font-size: 22px;
+    color: #081b8d;
+    margin-bottom: 0;
+}
+
+.wpo-project-details-text span,
+.wpo-project-details-text-3 span {
+    font-size: 16px;
+    color: #777;
+}
+
+.wpo-p-details-section {
+    margin-top: 50px;
+}
+
+.wpo-p-details-section p {
+    margin-bottom: 30px;
+}
+
+.wpo-p-details-quote {
+    padding: 40px;
+    background: rgb(200, 167, 112, .91);
+    margin-top: 30px;
+    padding-left: 80px;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.wpo-p-details-quote:before {
+    font-family: "Flaticon";
+    content: "\f119";
+    font-size: 40px;
+    color: #efe6e1;
+    margin-left: 0;
+    position: absolute;
+    left: 5%;
+    top: 22%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.wpo-p-details-img {
+    margin-bottom: 30px;
+}
+
+.wpo-p-details-quote p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.wpo-p-details-quote span {
+    color: #efe6e1;
+    text-decoration: underline;
+}
+
+.wpo-faq-section {
+    padding-top: 60px;
+}
+
+
+@media(max-width:1200px) {
+
+    .wpo-project-details-text h2,
+    .wpo-project-details-text-3 h2 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:992px) {
+
+    .wpo-project-details-text h2,
+    .wpo-project-details-text-3 h2 {
+        margin-bottom: 30px;
+    }
+
+    .wpo-project-details-text-3 {
+        border: none;
+    }
+}
+
+@media(max-width:530px) {
+    .wpo-p-details-quote:before {
+        left: 12%;
+        top: 17%;
+    }
+}

@@ -1,0 +1,127 @@
+
+.wpo-protfolio-area {
+    background: #f1f1f1;
+}
+
+.wpo-protfolio-text h2 {
+    font-size: 40px;
+    color: #233849
+}
+
+.wpo-protfolio-text span {
+    font-size: 18px;
+    color: #233849;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.wpo-protfolio-text a {
+    display: inline-block;
+    font-size: 18px;
+    color: #233849;
+    padding: 10px 50px;
+    background: rgb(200, 167, 112);
+    position: relative;
+}
+.wpo-protfolio-text a:hover,
+.wpo-protfolio-text a:focus{
+    color: #233849;
+}
+.wpo-protfolio-text a:after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: 233849;
+    content: "";
+}
+
+.wpo-protfolio-text a:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    z-index: 9;
+    content: '';
+    transition: all .3s;
+}
+
+.wpo-protfolio-text a:hover:before{
+    left: 0;
+    opacity: .3;
+}
+
+.wpo-protfolio-single,
+.wpo-blog-img {
+    position: relative;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+
+.wpo-protfolio-text {
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    bottom:30px;
+}
+
+.wpo-protfolio-right {
+    margin-top: -200px;
+}
+
+.wpo-protfolio-area .section-title {
+    margin-bottom: 120px;
+}
+
+.wpo-protfolio-item .col {
+    padding: 1px;
+}
+
+.protfolio-btn a {
+    font-size: 40px;
+    color: #233849;
+    font-weight: 700;
+
+}
+
+.protfolio-btn a:hover {
+   
+    color: #c8a770 !important;
+}
+.protfolio-btn {
+    text-align: right;
+    margin-top: -45px;
+}
+
+@media(max-width: 991px) {
+    .wpo-protfolio-single, .wpo-blog-img {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .wpo-protfolio-area .section-title {
+        margin-bottom: 40px;
+    }
+
+    .wpo-protfolio-right {
+        margin-top: 0;
+    }
+
+    .protfolio-btn {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 590px) {
+    .protfolio-btn a {
+        font-size: 20px;
+    }
+}

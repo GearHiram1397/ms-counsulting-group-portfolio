@@ -1,0 +1,37 @@
+.wpo-service-area {
+    background: #121127;
+    padding-bottom: 40px!important;
+}
+
+
+.wpo-service-area-3 {
+    background: #c8a770;
+    padding-bottom: 40px!important;
+}
+.wpo-service-area-4{
+    padding-bottom: 40px!important;
+}
+.wpo-service-area-3 .wpo-service-text h2,
+.wpo-service-area-4 .wpo-service-text h2 {
+    color: #c8a770;
+}
+
+.wpo-service-area-3 .wpo-service-text p,
+.wpo-service-area-4 .wpo-service-text p {
+    color: #666;
+}
+
+.wpo-service-area-3 .section-title h2,
+.wpo-service-area-4 .section-title h2 {
+    color: #233849;
+}
+
+.wpo-service-area-4 {
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.wpo-service-area-5 {
+    background: #050546;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,41 @@
+/*======================================================
+smothscroll
+ ======================================================*/
+
+ul.smothscroll {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    list-style: none;
+    z-index: 9999;
+}
+
+ul.smothscroll a {
+    background-color: #c8a770;
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    border: 2px solid #d2b482;
+    border-radius: 45px;
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+ul.smothscroll a:hover{
+    background-color: #d2b482;
+}
+
+
+@media(max-width:767px){
+    ul.smothscroll a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}

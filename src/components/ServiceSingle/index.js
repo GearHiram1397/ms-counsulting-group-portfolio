@@ -27,7 +27,7 @@ const ServiceSingle = ( props ) => {
                             <div className="widget contact-widget">
                                 <div>
                                     <h5>Request a Call Back</h5>
-                                    <h4>(523) 456-789</h4>
+                                    <h4>(512) 804-9875</h4>
                                 </div>
                             </div>
                         </div>

@@ -114,10 +114,9 @@
 .wpo-hero-style-2 {
     
     background-color: #f1f1f1;
-    /* background: url('../../images/fotosdelportafolio/background1.jpg');
-    background-size: fit-cover;
-    background-position: center;
-    background-repeat: no-repeat; */
+    background: url('../../images/fotosdelportafolio/newbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 

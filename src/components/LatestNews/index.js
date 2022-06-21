@@ -2,9 +2,9 @@ import React from 'react'
 import './style.css'
 import {Link} from 'react-router-dom'
 
-import blog1 from '../../images/blog/1.jpg'
-import blog2 from '../../images/blog/2.jpg'
-import blog3 from '../../images/blog/3.jpg'
+import blog1 from '../../images/fotosdelportafolio/blog1.jpg'
+import blog2 from '../../images/fotosdelportafolio/blog2.jpg'
+import blog3 from '../../images/fotosdelportafolio/blog3.jpg'
 
 const LatestBlog = () => {
     return(
@@ -26,7 +26,7 @@ const LatestBlog = () => {
                                     <li><span>By Admin</span></li>
                                     <li>. Nov 24, 2020</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Helpful tips for become a successful designer</Link></h2>
+                                <h2><Link to="/blog-details">Travel is good for your soul</Link></h2>
                                 <Link to="/blog-details">Read More...</Link>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const LatestBlog = () => {
                                     <li><span>By Admin</span></li>
                                     <li>. Nov 24, 2020</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Helpful tips for become a successful designer</Link></h2>
+                                <h2><Link to="/blog-details">Why do you need a HR consultant?</Link></h2>
                                 <Link to="/blog-details">Read More...</Link>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const LatestBlog = () => {
                                     <li><span>By Admin</span></li>
                                     <li>. Nov 24, 2020</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Helpful tips for become a successful designer</Link></h2>
+                                <h2><Link to="/blog-details">Working with businesses</Link></h2>
                                 <Link to="/blog-details">Read More...</Link>
                             </div>
                         </div>

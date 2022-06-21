@@ -16,7 +16,7 @@
 
 .wpo-service-sidebar .widget h3:after {
     content: "";
-    background: url('../../images/service-sidebar-widget-title-bg.png') center center/auto no-repeat local;
+    background: url('') center center/auto no-repeat local;
     width: 100px;
     height: 4px;
     position: absolute;

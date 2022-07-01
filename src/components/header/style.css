@@ -43,7 +43,7 @@ nav ul li:hover > ul li {
 }
 nav ul li a:hover,
 nav ul li a.active {
-	color:#c8a770!important;
+	color:#c8a770 !important;
 	text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ header.fixed .header-content {
 
 
 .header-b{
-	padding-left: 140px;
+	padding-left: 260px;
     padding-top: 5px;
 }
 

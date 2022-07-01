@@ -4,8 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 // Route Setting
 import HomePage from "../HomePage";
 import AboutPage from "../AboutPage";
-import PorfolioGrid from "../PorfolioGrid";
-import PorfolioGrid2 from "../PorfolioGrid2";
 import PorfolioGrid3 from "../PorfolioGrid3";
 import ServiceDetails from "../ServiceDetails";
 import ProjectDetails1 from "../ProjectDetails/index1";
@@ -14,10 +12,7 @@ import ProjectDetails3 from "../ProjectDetails/index3";
 import ProjectDetails from "../ProjectDetails";
 import ErroPage from "../404";
 import ContactPage from "../ContactPage";
-import BlogPage from "../BlogPage";
-import BlogDetailsFull from "../BlogFull";
-import BlogDetailsPage from "../BlogDetailsPage";
-import BlogDetailsFullwidth from "../BlogDetailsFullwidth";
+
 
 // Normal Route
 // import PrivateRoute from "../_PrivateRoute";
@@ -41,15 +36,7 @@ export default function Rout() {
                 element={<AboutPage/>}
             />
             <Route
-                path="/protfolioGrid"
-                element={<PorfolioGrid/>}
-            />
-            <Route
-                path="/protfolioGrid2"
-                element={<PorfolioGrid2/>}
-            />
-            <Route
-                path="/protfolioMashonary"
+                path="/portfolio"
                 element={<PorfolioGrid3/>}
             />
             <Route
@@ -78,22 +65,6 @@ export default function Rout() {
             <Route
                 path="/contact"
                 element={<ContactPage/>}
-            />
-            <Route
-                path="/blog"
-                element={<BlogPage/>}
-            />
-            <Route
-                path="/blogfullwidth"
-                element={<BlogDetailsFull/>}
-            />
-            <Route
-                path="/blog-details"
-                element={<BlogDetailsPage/>}
-            />
-            <Route
-                path="/blog-details-fullwidth"
-                element={<BlogDetailsFullwidth/>}
             />
             {/* <Route path="/login" component={LoginPage} />
             <Route path="/signup" component={SignupPage} /> */}

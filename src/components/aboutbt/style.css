@@ -3,7 +3,7 @@
 }
 
 .wpo-about-img {
-    width: 120%;
+    width: 118%;
     left: -101px;
     position: relative;
 }
@@ -71,4 +71,10 @@
         width: 134px;
         font-size: 14px;
     }
+
+    .wpo-about-img {
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    
 }

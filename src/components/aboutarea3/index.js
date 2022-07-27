@@ -11,6 +11,11 @@ const AboutArea3 = (props) => {
     <div className="wpo-about-area-3 section-padding">
         <div className="wpo-about-wrap">
             <div className="container">
+            <div className="col-12">
+                <div className="section-title-2 text-center">
+                    <h2>About Me</h2>
+                </div>
+            </div>
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div className="about-s2-img">

@@ -319,7 +319,8 @@
     height: 100%;
     z-index: 99;
     position: relative;
-    background: #efe6e1;
+    background: #c4ae88;
+    opacity: 0.9;
     padding: 50px 0;
     margin-top: 0px;
 }
@@ -380,7 +381,7 @@
 @media(max-width: 767px) {
     .wpo-hero-style-2 .slide-caption h2 {
         font-size: 35px;
-        line-height: 1px;
+        line-height: 1;
     }
 
     .wpo-hero-style-3{

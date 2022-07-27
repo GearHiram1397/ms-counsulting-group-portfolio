@@ -24,7 +24,7 @@ const Header2 = (props) => {
                 <div className="contact">
                     <div className="cart-search-contact">
                         <div className="get-number">
-                            <Link to="/contact" >+(512)804-9875</Link>
+                            <a href="tel:7878333095" >+(512)804-9875</a>
                         </div>
                     </div>
                 </div>

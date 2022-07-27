@@ -210,7 +210,7 @@ nav ul ul li{
     margin: 0;
     display: inline-block;
     position: relative;
-    color: #c8a770
+    color:#233849;
 }
 
 @media (max-width: 991px) {
@@ -435,13 +435,19 @@ img{
     left: 0;
     width: 100%;
     background: #efe6e1;;
+    opacity: 0.9;
     border: none;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
       -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
       -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+
+      
   }
+
+
   .fixed-navbar.active .header-style-2,
   .fixed-navbar.active .header-style-s3,
   .fixed-navbar.active .header-style-3{
     background: #efe6e1;
+    opacity: 0.9;
   }

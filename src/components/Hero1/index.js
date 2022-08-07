@@ -15,7 +15,7 @@ const Hero1 = () => {
                             <p className="wow fadeInUp" data-wow-delay="1.5s">HR / Business Consultant </p>
                             <div className="bg-social wow fadeInUp" data-wow-delay="2.0s">
                                 <ul>
-                                    <li><Link to="//www.facebook.com/marysabel.sepulveda"><i className="fa fa-facebook"></i></Link></li>
+                                    <li><Link to="//www.facebook.com/msmanagementandconsulting"><i className="fa fa-facebook"></i></Link></li>
                                     <li><Link to="//www.linkedin.com/in/mary-sepulveda-23ab6b138/"><i className="fa fa-linkedin"></i></Link></li>
                                     <li><Link to="//instagram.com/mary_splvd?igshid=NWRhNmQxMjQ="><i className="fa fa-instagram"></i></Link></li>
                                 </ul>

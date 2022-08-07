@@ -44,7 +44,7 @@ const PortfolioSub = (props) => {
                                 </div>
                                 <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="wpo-protfolio-right">
-                                        <div className="wpo-protfolio-single">
+                                        {/* <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
                                                 <img src={profolio3} alt="" />
                                             </div>
@@ -52,7 +52,7 @@ const PortfolioSub = (props) => {
 
                                                 <Link to="/projectDetails/2">View Work</Link>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
                                                 <img src={profolio4} alt="" />

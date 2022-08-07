@@ -25,7 +25,7 @@ const Footer = (props) => {
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="wpo-footer-social">
                                 <ul>
-                                    <li><Link to="//www.facebook.com/marysabel.sepulveda"><i className="fa fa-facebook"></i></Link></li>
+                                    <li><Link to="//www.facebook.com/msmanagementandconsulting"><i className="fa fa-facebook"></i></Link></li>
                                     <li><Link to="//twitter.com/MarySep04052919?s=20&t=6MUsWvrXAfPrlTvQBi_jZA"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
                                     <li><Link to="//instagram.com/mary_splvd?igshid=NWRhNmQxMjQ="><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
                                 </ul>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
 
-import proj1 from '../../images/project/img-4.jpg'
-import proj2 from '../../images/project/img-2.jpg'
-import proj3 from '../../images/project/img-3.jpg'
+import proj1 from '../../images/fotosdelportafolio/judge.jpg'
+import proj2 from '../../images/fotosdelportafolio/court.jpg'
+import proj3 from '../../images/fotosdelportafolio/case.jpg'
 
 const ProjectSingle = ( props ) => {
     return(
@@ -20,27 +20,30 @@ const ProjectSingle = ( props ) => {
                             <div className="row">
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text">
-                                        <span>Client Name</span>
-                                        <h2>Robert William</h2>
+                                        <span>Job Title</span>
+                                        <h2>Administrative Assistant</h2>
                                     </div>
                                 </div>
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text-3">
-                                        <span>Project Value</span>
-                                        <h2>$500</h2>
+                                        <span>Start Date</span>
+                                        <h2>January 2010</h2>
                                     </div>
                                 </div>
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text">
-                                        <span>Date</span>
-                                        <h2>25 Dec 2020</h2>
+                                        <span>End Date</span>
+                                        <h2>November 2011</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="wpo-p-details-section">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
-                            <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                            <p>
+                                Conduct detailed investigations, searching, interviews, interrogations, evidence 
+                                collection and preservation and various methods of investigation. Keep detailed 
+                                records and prepare investigative reports.</p>
+                            
                             <div className="row">
                                 <div className="col-md-6 col-sm-6 col-12">
                                     <div className="wpo-p-details-img">

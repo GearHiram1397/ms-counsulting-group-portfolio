@@ -17,7 +17,7 @@ const Footer = (props) => {
                             <div className="wpo-footer-menu">
                                 <ul>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/protfolio">Portfolio</Link></li>
+                                    <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>

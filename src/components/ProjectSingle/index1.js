@@ -2,8 +2,8 @@ import React from 'react'
 import './style.css'
 
 import proj1 from '../../images/fotosdelportafolio/background.jpg'
-import proj2 from '../../images/project/img-2.jpg'
-import proj3 from '../../images/project/img-3.jpg'
+import proj2 from '../../images/fotosdelportafolio/hr1.jpg'
+import proj3 from '../../images/fotosdelportafolio/consult.jpg'
 
 const ProjectSingle = ( props ) => {
     return(
@@ -50,7 +50,7 @@ const ProjectSingle = ( props ) => {
                             <div className="row">
                                 <div className="col-md-6 col-sm-6 col-12">
                                     <div className="wpo-p-details-img">
-                                         <img src={proj2} alt=""/>
+                                         <img src={proj2} style={{height: '210px'}} alt=""/>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-sm-6 col-12">

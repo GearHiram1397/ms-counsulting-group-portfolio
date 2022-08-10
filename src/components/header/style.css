@@ -151,7 +151,7 @@ header.fixed .header-content {
 	.header-style-2, 
 	.header-style-3{
 		background-color: #233849;
-		opacity: 0.8;
+		opacity: 0.9;
 		position: relative;
 		padding: 20px 0!important;
 	}
@@ -175,7 +175,7 @@ header.fixed .header-content {
 	}
 
 	.header-style-3 .showmenu i {
-		color: #333;
+		color: #c8a770;
 	}
 }
 
@@ -186,11 +186,11 @@ header.fixed .header-content {
 
 
 .header-style-2 nav ul li a{
-    color: #666;
+    color: #c8a770;
 }
 
 .header-style-2 .get-number a {
-    color: #666;
+    color: #f1f1f1;
     border-color: #d2b482;
 }
 

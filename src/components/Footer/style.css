@@ -84,6 +84,7 @@
 .wpo-footer-bottom5 {
     padding: 30px 0;
     background: #233849;
+    border-top: 0.5px solid #c8a770;
    
     text-align: center;
 }
@@ -170,11 +171,12 @@
 }
 
 .wpo-footer-area3 .wpo-footer-menu ul li a {
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-footer-area3 .wpo-footer-bottom {
     background: #233849;
+    border-top: 0.5px solid #c8a770;
     opacity: 0.8;
 }
 

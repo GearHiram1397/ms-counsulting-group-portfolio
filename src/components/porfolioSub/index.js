@@ -24,7 +24,7 @@ const PortfolioSub = (props) => {
                                     <div className="wpo-protfolio-left">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img style={{ height: "350px", border: '5px solid #233849'}} src={profolio1} alt="" />
+                                                <img style={{ height: "350px", }} src={profolio1} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
 
@@ -46,7 +46,7 @@ const PortfolioSub = (props) => {
                                         </div> */}
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img style={{ height: "350px", border: '5px solid #233849'}} src={profolio4} alt="" />
+                                                <img style={{ height: "350px",}} src={profolio4} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
 
@@ -55,7 +55,7 @@ const PortfolioSub = (props) => {
                                         </div>
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img style={{ height: "350px", border: '5px solid #233849'}} src={profolio2} alt="" />
+                                                <img style={{ height: "350px", }} src={profolio2} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
 

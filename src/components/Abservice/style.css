@@ -46,15 +46,17 @@
 
 .wpo-service-text h2 {
     color: #233849;
-    font-size: 40px;
+    font-size: 30px;
+  
     margin-bottom: 15px;
     line-height: 55px;
     margin-top: 0;
-    max-width: 150px;
+    /* max-width: 150px; */
 }
 
 .wpo-service-text p {
-    color: #233849
+    color: #233849;
+    font-size: 18px;
 }
 
 .wpo-service-wrap {

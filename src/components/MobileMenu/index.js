@@ -17,7 +17,7 @@ const menus = [
     {
         id: 3,
         title: 'Portfolio',
-        link: '/service',
+        link: '/portfolio',
     },
     {
         id: 4,

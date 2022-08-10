@@ -3,7 +3,7 @@ import Navbar5 from '../../components/Navbar5'
 
 import Footer from '../../components/Footer'
 import PorfolioSection2 from '../../components/PorfolioSection2'
-import FtLogo from '../../images/fotosdelportafolio/completelogo-removebg-preview.png'
+import FtLogo from '../../images/fotosdelportafolio/fulllogoblue-removebg-preview.png'
 
 const PorfolioGrid3 =() => {
     return(

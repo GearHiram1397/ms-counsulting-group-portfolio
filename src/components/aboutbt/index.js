@@ -2,7 +2,7 @@ import React from 'react'
 import {Link}  from 'react-router-dom'
 import './style.css'
 
-import abimg from '../../images/fotosdelportafolio/mscoun.jpg'
+import abimg from '../../images/fotosdelportafolio/background.jpg'
 
 const Abmain = () => {
     return(
@@ -15,8 +15,8 @@ const Abmain = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="wpo-about-text">
-                        <h2>H/R Specialist </h2>
-                        <p> Hi! my name is Marysabel Sepulveda.I’m a HR specialist with an interest in building the most effective workforce possible. I 
+                        <h2>HR Specialist </h2>
+                        <p> Hi! my name is Marysabel Sepulveda. I’m a HR specialist with an interest in building the most effective workforce possible. I 
                         am leading initiatives and teams to help companies solve business problems and fuel 
                         greater results. Skilled in Customer Service, Bilingual Communications, Strategic 
                         Planning-and Research. Also, I have strong HR generalist knowledge with practical 

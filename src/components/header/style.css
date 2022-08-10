@@ -2,8 +2,9 @@
 
 .logo {
 	float: left;
-	width: 160px;
+	width: 150px;
 	margin-top: 17px;
+	margin-bottom: 10px;
 }
 .header-style-1 {
     position: absolute;
@@ -11,6 +12,8 @@
     left: 0;
     width: 100%;
     z-index: 999;
+	background-color: #233849;
+
 }
 /* Navigation */
 
@@ -31,6 +34,7 @@ nav > ul > li {
 nav ul li a {
 	display: inline-block;
 	color: #233849;
+	text-decoration: none;
 	font-size: 15px;
 	font-weight: 600;
 }
@@ -43,10 +47,13 @@ nav ul li:hover > ul li {
 }
 nav ul li a:hover,
 nav ul li a.active {
-	color:#c8a770 !important;
+	color:#c8a770 !important;	
 	text-decoration: none;
 }
 
+.desactive {
+	color: #f1f1f1 !important;
+}
 nav ul ul {
 	position: absolute;
 	top: 100%;
@@ -84,7 +91,7 @@ nav ul ul ul {
 	}
 }
 nav ul ul li a{
-	color: #333;
+	color: #f1f1f1;
 }
 
 header.fixed,
@@ -97,7 +104,7 @@ header.ab.fixed {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-	background-color: #fff;
+	background-color: #233849;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.10);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.10);
 	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.10);
@@ -115,7 +122,8 @@ header.fixed .header-content {
 	padding-right: 0;
 }
 .layout3 header.fixed {
-	background-color: #efe6e1;
+	background-color: #233849;
+	color: #f1f1f1;
 }
 
 .contact {
@@ -142,18 +150,19 @@ header.fixed .header-content {
 	.header-style-1, 
 	.header-style-2, 
 	.header-style-3{
-		background-color: #efe6e1;;
+		background-color: #233849;
+		opacity: 0.8;
 		position: relative;
 		padding: 20px 0!important;
 	}
 	.header-style-2{
-		background: #fff;
+		background: #233849;
 		box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
 		-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
 		-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
 	}
 	.header-style-2 .showmenu i{
-		color: #333;
+		color: #c8a770;
 	}
 	.logo {
 		margin-top: 0px;

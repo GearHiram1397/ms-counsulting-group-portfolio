@@ -1,6 +1,7 @@
 .wpo-about-area-3 .about-s2-img,
 .wpo-about-area-5 .about-s2-img {
     margin-top: 0;
+    margin-left: -30px;
     background: #fff;
     box-shadow: 0px 2px 14.25px 0.75px rgba(58, 58, 58, 0.15);
 }
@@ -12,9 +13,11 @@
 
 .wpo-about-area-3 .wpo-about-text h2,
 .wpo-about-area-5 .wpo-about-text h2 {
-    color: #c8a770;
+    color: #233849;
+    font-size: 44px;
     text-align: center;
-    margin-top: 0;
+    margin-left: -20px;
+    margin-top: 20px;
 }
 
 .wpo-about-area-3 .wpo-about-text p,

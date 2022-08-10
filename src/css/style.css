@@ -318,11 +318,11 @@ nav ul ul li{
 .form textarea:focus,
 .form select:focus {
     border-color: #f8c000;
-    -webkit-box-shadow: 0 0 5px 0 #fde2dd;
-    -moz-box-shadow: 0 0 5px 0 #fde2dd;
-    -o-box-shadow: 0 0 5px 0 #fde2dd;
-    -ms-box-shadow: 0 0 5px 0 #fde2dd;
-    box-shadow: 0 0 5px 0 #fde2dd;
+    -webkit-box-shadow: 0 0 5px 0 #233849;
+    -moz-box-shadow: 0 0 5px 0 #233849;
+    -o-box-shadow: 0 0 5px 0 #233849;
+    -ms-box-shadow: 0 0 5px 0 #233849;
+    box-shadow: 0 0 5px 0 #233849;
 }
 
 .form ::-webkit-input-placeholder {
@@ -376,7 +376,7 @@ nav ul ul li{
 }
 
 .social-links li a {
-    background-color: #fde2dd;
+    background-color: #233849;
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -386,7 +386,7 @@ nav ul ul li{
 }
 
 .social-links li a:hover {
-    background-color: #f8c000;
+    background-color: #c8a770;
 }
 .fa{
 	display: unset!important;
@@ -434,7 +434,8 @@ img{
     top: 0;
     left: 0;
     width: 100%;
-    background: #efe6e1;;
+    background: #233849;
+    color: #f1f1f1;
     opacity: 0.9;
     border: none;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
@@ -448,6 +449,7 @@ img{
   .fixed-navbar.active .header-style-2,
   .fixed-navbar.active .header-style-s3,
   .fixed-navbar.active .header-style-3{
-    background: #efe6e1;
+    background: #233849;
+    color: #f1f1f1;
     opacity: 0.9;
   }

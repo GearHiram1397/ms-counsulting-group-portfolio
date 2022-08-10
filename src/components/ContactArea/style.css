@@ -8,7 +8,7 @@
     -webkit-box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
     box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
     border-radius: 5px;
-    background: #efe6e1;
+    background: #233849;
     border: 1px solid #464646;
 }
 
@@ -30,7 +30,7 @@
     font-weight: 600;
     margin: 0 0 1em;
     text-align: center;
-    color: #233849;
+    color: #f1f1f1;
 }
 
 @media (max-width: 767px) {
@@ -52,7 +52,7 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     padding-left: 0;
-    color: #233849;
+    color: #f1f1f1;
     font-family: 'Now';
 }
 
@@ -147,14 +147,14 @@
     box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
     padding: 33px 40px;
     margin-bottom: 30px;
-    background: #efe6e1;
+    background: #233849;
     border: 1px solid #464646;
     border-radius: 5px;
 }
 
 .info-item h2 {
     font-size: 24px;
-    color: #233849;
+    color: #f1f1f1;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 15px;
@@ -174,7 +174,7 @@
 }
 
 .info-text span{
-    color: #8c8b8b;
+    color: #f1f1f1;
     font-size: 18px;
     font-weight: 300;
 
@@ -217,25 +217,25 @@
 .wpo-wpo-contact-form-map form ::-webkit-input-placeholder {
     font-style: 16px;
     font-style: normal;
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-wpo-contact-form-map form :-moz-placeholder {
     font-style: 16px;
     font-style: normal;
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-wpo-contact-form-map form ::-moz-placeholder {
     font-style: 16px;
     font-style: normal;
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-wpo-contact-form-map form :-ms-input-placeholder {
     font-style: 16px;
     font-style: normal;
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-wpo-contact-form-map form .form-submit{
@@ -249,12 +249,12 @@
 /* .wpo-contact-area2 */
 
 .wpo-contact-area2 {
-    background: #efe6e1;
+    background: #233849;
     padding-bottom: 70px;
 }
 
 .wpo-contact-area2 .wpo-wpo-contact-form-map .wpo-contact-form {
-    background: #efe6e1;
+    background: #233849;
     border: 1px solid #363458;
 }
 
@@ -266,7 +266,7 @@
 .wpo-contact-area2 .wpo-wpo-contact-form-map form input,
 .wpo-contact-area2 .wpo-wpo-contact-form-map form select,
 .wpo-contact-area2 .wpo-wpo-contact-form-map form textarea {
-    border-bottom: 1px solid #363458;
+    border-bottom: 1px solid #f1f1f1;
 }
 
 
@@ -274,13 +274,13 @@
 
 .wpo-contact-area3 .info-item,
 .wpo-contact-area4 .info-item {
-    background: #efe6e1;
+    background: #233849;
     border: none;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map .wpo-contact-form,
 .wpo-contact-area4 .wpo-wpo-contact-form-map .wpo-contact-form {
-    background: #efe6e1;
+    background: #233849;
     border: none;
 }
 
@@ -290,43 +290,43 @@
 .wpo-contact-area4 .wpo-wpo-contact-form-map form select,
 .wpo-contact-area3 .wpo-wpo-contact-form-map form textarea,
 .wpo-contact-area4 .wpo-wpo-contact-form-map form textarea {
-    color: #333;
+    color: #f1f1f1;
     border-bottom: 1px solid #eee;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map .wpo-contact-form h2,
 .wpo-contact-area4 .wpo-wpo-contact-form-map .wpo-contact-form h2 {
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .info-item h2,
 .wpo-contact-area4 .info-item h2 {
-    color: #233849;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .info-text span,
 .wpo-contact-area4 .info-text span {
-    color: #666666;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map form ::-webkit-input-placeholder,
 .wpo-contact-area4 .wpo-wpo-contact-form-map form ::-webkit-input-placeholder {
-    color: #888;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map form :-moz-placeholder,
 .wpo-contact-area4 .wpo-wpo-contact-form-map form :-moz-placeholder {
-    color: #888;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map form ::-moz-placeholder,
 .wpo-contact-area4 .wpo-wpo-contact-form-map form ::-moz-placeholder {
-    color: #888;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3 .wpo-wpo-contact-form-map form :-ms-input-placeholder,
 .wpo-contact-area4 .wpo-wpo-contact-form-map form :-ms-input-placeholder {
-    color: #888;
+    color: #f1f1f1;
 }
 
 .wpo-contact-area3{

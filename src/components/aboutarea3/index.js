@@ -33,8 +33,8 @@ const AboutArea3 = (props) => {
                                 fast-paced environment while meeting all deadlines. </p>
                             <ul>
                                 <li>High Quality Service</li>
-                                <li>Best Price in Marketplace.</li>
-                                <li>Unique Design and Development.</li>
+                                <li>Best Customer Experience in Marketplace.</li>
+                                <li>Unique Development.</li>
                             </ul>
                             <Link to="//www.dropbox.com/sh/zxtxwiad1j1y8yr/AABcVnUE9NkD-wHxgyN3QqzZa?dl=1" className="theme-btn-s2">Download CV</Link>
                         </div>

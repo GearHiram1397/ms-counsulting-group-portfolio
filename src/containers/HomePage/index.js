@@ -7,7 +7,7 @@ import ContactArea from '../../components/ContactArea'
 import LatestBlog from '../../components/LatestNews'
 import Footer from '../../components/Footer'
 import TestSlider from '../../components/Testimonial'
-import Logo from '../../images/fotosdelportafolio/completelogo-removebg-preview.png'
+import Logo from '../../images/fotosdelportafolio/fulllogoblue-removebg-preview.png'
 import AboutWrap from '../../components/about'
 
 const HomePage =() => {

@@ -5,14 +5,15 @@
     z-index: 9999;
     height: 100vh;
     width: 280px;
-    background:#efe6e1;
+    background:#233849;
+    opacity: 0.9;
     transition: all 0.3s ease 0s;
     box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
     overflow-x: auto;
     overflow-y: scroll;
 }
 .responsivemenu .card-body{
-    background:#efe6e1;
+    background:#233849;
 }
 .mobileMenu h2{
     padding-left: 20px;
@@ -36,11 +37,12 @@
 .responsivemenu li p{
     display: block;
     padding: 13px 30px;
-    font-size: 16px;
-    letter-spacing: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
     text-transform: capitalize;
-    font-weight: 500;
-    color: #233849;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f1f1f1;
     cursor: pointer;
 }
 .responsivemenu li p{
@@ -56,7 +58,7 @@
 }
 
 .responsivemenu .card-body li {
-    background:#efe6e1;
+    background:#fff;
 }
 
 .responsivemenu li a{

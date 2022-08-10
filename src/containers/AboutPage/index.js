@@ -4,7 +4,7 @@ import ServiceSection from '../../components/ServiceSection'
 import MySkill from '../../components/MySkill'
 import Footer from '../../components/Footer'
 import AboutArea3 from '../../components/aboutarea3'
-import FtLogo from '../../images/fotosdelportafolio/completelogo-removebg-preview.png'
+import FtLogo from '../../images/fotosdelportafolio/fulllogoblue-removebg-preview.png'
 
 const AboutPage =() => {
     return(

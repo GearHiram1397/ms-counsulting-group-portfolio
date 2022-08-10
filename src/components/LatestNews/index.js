@@ -12,7 +12,7 @@ const LatestBlog = () => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title text-center">
-                        <h2>Latest News</h2>
+                        <h2 >Latest News</h2>
                     </div>
                 </div>
                 <div className="row">

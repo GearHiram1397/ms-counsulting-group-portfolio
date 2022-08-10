@@ -3,7 +3,7 @@ import Navbar5 from '../../components/Navbar5'
 
 import Footer from '../../components/Footer'
 import ProjectSingle from '../../components/ProjectSingle'
-import FtLogo from '../../images/fotosdelportafolio/completelogo-removebg-preview.png'
+import FtLogo from '../../images/fotosdelportafolio/fulllogoblue-removebg-preview.png'
 
 const ProjectDetails =() => {
     return(

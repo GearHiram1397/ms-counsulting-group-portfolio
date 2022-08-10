@@ -1,5 +1,5 @@
 .wpo-footer-area {
-    background: #f1f1f1;
+    background: #233849;
 }
 
 .wpo-footer-top {
@@ -11,7 +11,8 @@
 }
 
 .wpo-footer-menu ul li a {
-    color: #233849;
+    color: #f1f1f1;
+    text-decoration: none;
     padding: 10px 30px;
 }
 
@@ -65,9 +66,8 @@
 }
 
 .wpo-footer-social ul li:hover a {
-    background: rgb(200, 167, 112,.41);
+    background: #f1f1f1;
 }
-
 .wpo-footer-social ul li:nth-child(2) a {
     color: #03a9f4;
 }
@@ -83,13 +83,14 @@
 .wpo-footer-bottom,
 .wpo-footer-bottom5 {
     padding: 30px 0;
-    background: #efe6e1;;
+    background: #233849;
+   
     text-align: center;
 }
 
 .wpo-footer-bottom span,
 .wpo-footer-bottom5 span {
-    color: #c8a770
+    color: #c8a770;
 }
 
 @media(max-width: 1200px) {
@@ -142,12 +143,14 @@
 
 
 .wpo-footer-area2 {
-    background: #efe6e1;
+    background: #233849;
+    opacity: 0.8;
 }
 
 .wpo-footer-area2  .wpo-footer-bottom {
     text-align: center;
-    background: #efe6e1;
+    background: #233849;
+    opacity: 0.8;
     padding: 30px 0;
 }
 
@@ -156,13 +159,14 @@
 }
 
 .wpo-footer-area2  .wpo-footer-area {
-    background: #efe6e1;
+    background: #233849;
+    opacity: 0.8;
 }
 
 
 
 .wpo-footer-area3 {
-    background: white;
+    background: #233849;
 }
 
 .wpo-footer-area3 .wpo-footer-menu ul li a {
@@ -170,7 +174,8 @@
 }
 
 .wpo-footer-area3 .wpo-footer-bottom {
-    background: #efe6e1;
+    background: #233849;
+    opacity: 0.8;
 }
 
 .wpo-footer-area3 .wpo-footer-bottom span {

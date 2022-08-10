@@ -18,10 +18,11 @@
 
 .wpo-protfolio-text a {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     color: #233849;
     padding: 10px 50px;
-    background: rgb(200, 167, 112);
+    background: #c8a770;
+    border: 1px solid #233849;
     position: relative;
 }
 .wpo-protfolio-text a:hover,
@@ -75,12 +76,18 @@
     margin-top: -200px;
 }
 
+.wpo-protfolio-left{
+    margin-left: 120px;
+}
+
 .wpo-protfolio-area .section-title {
     margin-bottom: 120px;
 }
 
+
 .wpo-protfolio-item .col {
     padding: 1px;
+
 }
 
 .protfolio-btn a {
@@ -112,6 +119,10 @@
 
     .wpo-protfolio-right {
         margin-top: 0;
+    }
+
+    .wpo-protfolio-left {
+        margin-left: 0;
     }
 
     .protfolio-btn {

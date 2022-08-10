@@ -21,8 +21,8 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Product  Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>Management Consulting Services</h2>
+                                    <p>Strategic Business Planning Operations Advisory, Policy and Regulation Development Asistance</p>
                                 </div>
                             </div>
                         </div>
@@ -34,8 +34,8 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Web  Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>HR Management</h2>
+                                    <p>Pre - Employment Screening, Compensation Analysis, Recruiting and Employee Retention Strategies. Employee Benefits, Employee Separations. Performance Management. Time and Attendance Solutions. HR Polocies and Procedures</p>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Visual Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>Marketing Strategies</h2>
+                                    <p>Website Creation, Social Media, Online Paid Aids, Email Marketing, Corporate identity, Public Relations / Reputation Management, Direct Marketing, Outdoor Advertising.</p>
                                 </div>
                             </div>
                         </div>
@@ -60,8 +60,8 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Business Strategy</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>Training and Development</h2>
+                                    <p>Service Standards, Team Building, Conflict Management.</p>
                                 </div>
                             </div>
                         </div>

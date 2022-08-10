@@ -28,7 +28,7 @@ class TestSlider extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2>Testimonial</h2>
+                            <h2 style={{color: "#f1f1f1"}}>Testimonial</h2>
                         </div>
                     </div>
                     <div className="wpo-testimonial-main">
@@ -36,20 +36,22 @@ class TestSlider extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <p style={{ border: '5px solid #233849', padding: '30px', fontSize: '30px', background: "#233849", fontFamily: 'italic'}}>  
+                                       " <span style={{ fontSize:"30px", fontWeight:"500"}}>5 STARS PAGE <br/>🌟🌟🌟🌟🌟</span> <br/>
+                                        <span style={{fontSize:"26px", fontWeight:"500"}}> Professional Services </span> "</p>
                                         <div className="wpo-testimonial-item">
                                             <div className="wpo-testimonial-img">
                                                  <img src={Tes1} alt=""/>
                                             </div>
-                                            <div className="wpo-testimonial-thumb">
-                                                <h4>John Harry</h4>
-                                                <span>CEO of Moderntern</span>
+                                            <div  className="wpo-testimonial-thumb">
+                                                <h4 style={{fontWeight:"300" }}>Liliana Simcic</h4>
+                                                <span style={{fontWeight:"300"}}>Customer's Review</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="wpo-testimonial-wrap">
+                            {/* <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
                                         <p>Working with MS Consulting Group was the best desicion we could have made for our business, we worked with the best team and made great process in our business </p>
@@ -80,7 +82,7 @@ class TestSlider extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </Slider>
                     </div>
                 </div>

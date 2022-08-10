@@ -1,7 +1,8 @@
 
 
 .wpo-testimonial-area {
-    background: url('../../images/fotosdelportafolio/whitewhite.jpg') center center/cover no-repeat local;
+    background: #233849;
+    
 }
 .slick-prev, .slick-next{
     position: absolute;
@@ -57,9 +58,10 @@
 
 .wpo-testimonial-content {
     padding: 60px 100px;
-    background: rgb(200, 167, 112, .61);
-    border-top: 2px solid rgb(200, 167, 112);
-    border-bottom: 2px solid rgb(200, 167, 112);
+    background: #c8a770;
+    
+    border: 2px solid #233849;
+    border-bottom: 2px solid #233849;
     position: relative;
 }
 
@@ -87,8 +89,8 @@
     width: 12%;
     height: 100%;
     background: rgb(200, 167, 112,.61);
-    border-top: 2px solid rgb(200, 167, 112);
-    border-bottom: 2px solid rgb(200, 167, 112);
+    border-top: 2px solid #233849;
+    border-bottom: 2px solid #233849;
     top: 0;
 }
 
@@ -103,9 +105,10 @@
 
 .wpo-testimonial-img {
     float: left;
+    height: 80px;
     overflow: hidden;
     margin-right: 20px;
-    border: 5px solid #d2b482
+    border: 5px solid #233849;
 }
 
 .wpo-testimonial-area .wpo-testimonial-thumb {

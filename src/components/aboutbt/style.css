@@ -19,12 +19,13 @@
     color: #233849;
     text-align: center;
 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .wpo-about-text p {
     color:#233849;
-   
+    font-size: 19px;
+    line-height: 2;
     margin-bottom: 50px;
 }
 
@@ -78,7 +79,7 @@
 
     .wpo-about-img {
         margin-bottom: 50px;
-        margin-left: 50px;
+        margin-left: 55px;
     }
     
 }

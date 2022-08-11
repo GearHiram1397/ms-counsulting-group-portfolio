@@ -18,11 +18,12 @@
 
 .wpo-protfolio-text a {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
+    text-decoration: none;
     color: #233849;
-    padding: 10px 50px;
+    padding: 10px 30px;
     background: #c8a770;
-    border: 1px solid #233849;
+    border: 1px solid #c8a770;
     position: relative;
 }
 .wpo-protfolio-text a:hover,
@@ -91,7 +92,7 @@
 }
 
 .protfolio-btn a {
-    font-size: 40px;
+    font-size: 32px;
     color: #233849;
     font-weight: 700;
 

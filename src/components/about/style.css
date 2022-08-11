@@ -283,7 +283,7 @@
 
     .wpo-counter-grids .grid p,
     .wpo-counter-grids .grid p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .about-area .nav li a {
@@ -323,7 +323,7 @@
         float: left;
     }
     .about-area .nav li a {
-        width: 170px;
+        width: 180px;
         font-size: 18px;
         margin-bottom: 10px;
     }

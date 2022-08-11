@@ -118,6 +118,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+
 }
 
 .wpo-hero-style-1 {
@@ -380,6 +381,7 @@
 
 @media(max-width: 767px) {
     .wpo-hero-style-2 .slide-caption h2 {
+       margin-top: 20px;
         font-size: 35px;
         line-height: 1;
     }

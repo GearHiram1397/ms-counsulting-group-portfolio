@@ -54,11 +54,20 @@
 
 @media(max-width: 991px) {
 
- .wpo-protfolio-single{
+ .wpo-protfolio-single2{
    height: 100%;
  }
 
 .wpo-protfolio-text a {
     
 }
+}
+
+
+
+.wpo-protfolio-single2,
+.wpo-blog-img {
+    position: relative;
+    margin-bottom: 1px;
+    overflow: hidden;
 }

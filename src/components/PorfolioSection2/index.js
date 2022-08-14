@@ -21,7 +21,7 @@ const PorfolioSection2 = ( props ) => {
                         <div className="gallery-container row">
                             <div className="col-lg-6 col-md-6 col-sm-6 custom-grid">
                                 <div className="protfolio-l">
-                                    <div className="wpo-protfolio-single">
+                                    <div className="wpo-protfolio-single2">
                                         <div className="wpo-protfolio-img">
                                             <img src={profolio1} alt=""/>
                                         </div>
@@ -46,7 +46,7 @@ const PorfolioSection2 = ( props ) => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-6 custom-grid">
                                 <div>
-                                    <div className="wpo-protfolio-single">
+                                    <div className="wpo-protfolio-single2">
                                         <div className="wpo-protfolio-img">
                                             <img src={profolio2} alt=""/>
                                         </div>
@@ -58,7 +58,7 @@ const PorfolioSection2 = ( props ) => {
                                     </div>
                                 </div>
                                 <div className="">
-                                    <div className="wpo-protfolio-single">
+                                    <div className="wpo-protfolio-single2">
                                         <div className="wpo-protfolio-img">
                                             <img src={profolio4} alt=""/>
                                         </div>

@@ -45,7 +45,7 @@ const Header = (props) => {
         <div className="container">
             <div className="header-content">
                 <div className="logo">
-                    <Link to="/" title=""><img src={props.Logo} style={{height: "80px", marginTop: "-10px"}} alt=""/></Link>
+                    <Link to="/" title=""><img src={props.Logo} style={{height: "70px", marginTop: "-10px"}} alt=""/></Link>
                 </div>
                 <nav className="d-lg-block d-none header-b">
                     <ul>

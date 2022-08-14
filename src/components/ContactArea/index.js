@@ -35,7 +35,7 @@ const ContactArea = (props) => {
                                                 data-width="640"
                                                 data-height="480"
                                                 href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJkxRQXUqyAowRQiAVgydMY8U&key=AIzaSyCLuPmzykd7FQApEGm3fOjZcb-T7nGNW6c">
-                                            1218 Acanthus ST Pflugerville Texas
+                                            1218 Acanthus ST Pfv TX
                                              </a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">

@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from "../HomePage";
 import AboutPage from "../AboutPage";
 import PorfolioGrid3 from "../PorfolioGrid3";
-import ServiceDetails from "../ServiceDetails";
+
 import ProjectDetails1 from "../ProjectDetails/index1";
 import ProjectDetails2 from "../ProjectDetails/index2";
 import ProjectDetails3 from "../ProjectDetails/index3";
@@ -38,10 +38,6 @@ export default function Rout() {
             <Route
                 path="/portfolio"
                 element={<PorfolioGrid3/>}
-            />
-            <Route
-                path="/serviceDetails"
-                element={<ServiceDetails/>}
             />
             <Route
                 path="/projectDetails"

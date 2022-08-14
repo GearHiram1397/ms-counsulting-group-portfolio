@@ -1,22 +1,24 @@
 .wpo-protfolio-area-3 .wpo-protfolio-text,
 .wpo-protfolio-area-4 .wpo-protfolio-text {
     position: relative;
-    padding: 0;
+    padding: 10px 20px;
     padding-top: 40px;
+    border-top: 2px solid #c8a770;
 }
 .protfolio-btn{
     margin-top: 30px;
 }
 .wpo-protfolio-area-3 .wpo-protfolio-text h2,
 .wpo-protfolio-area-4 .wpo-protfolio-text h2 {
-    color: #c8a770;
+    color: #f1f1f1;
+    ;
     font-weight: 400;
     margin-top: 20px;
 }
 
 .wpo-protfolio-area-3 .wpo-protfolio-text span,
 .wpo-protfolio-area-4 .wpo-protfolio-text span {
-    color: #666;
+    color: #c8a770;
 }
 
 .wpo-protfolio-area-3 .protfolio-btn a,
@@ -36,4 +38,27 @@
 .wpo-protfolio-area-4 .protfolio-btn .theme-btn-s2 {
     font-size: 14px;
     color: #fff;
+}
+
+.wpo-protfolio-text a {
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    text-decoration: none;
+    color: #233849;
+    padding: 10px 50px;
+    background: #c8a770;
+    border: 1px solid #c8a770;
+    position: relative;
+}
+
+@media(max-width: 991px) {
+
+ .wpo-protfolio-single{
+   height: 100%;
+ }
+
+.wpo-protfolio-text a {
+    
+}
 }

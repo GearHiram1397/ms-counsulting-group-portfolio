@@ -61,7 +61,7 @@ const PortfolioSub = (props) => {
                                             </div>
                                             <div className="wpo-protfolio-text">
                                             <h2>MS Consulting Group</h2>
-                                                <span>HR / Bussiness Consultant</span>
+                                                <span>HR / Business Consultant</span>
                                                 <Link to="/projectDetails/1">View Work</Link>
                                             </div>
                                         </div>
@@ -70,7 +70,7 @@ const PortfolioSub = (props) => {
                             </div>
                             
                             <div className="protfolio-btn">
-                                <Link to="/protfolioMashonary">See More Work...</Link>
+                                <Link to="/portfolio">See More Work...</Link>
                             </div>
                             
                         </div>

@@ -68,7 +68,8 @@
 
     .wpo-blog-text h2 a {
         color: #f1f1f1;
-      
+       text-decoration: none;
+       font-size: 22px;
         line-height: 30px;
     }
 

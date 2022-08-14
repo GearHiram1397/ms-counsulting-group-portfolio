@@ -59,8 +59,8 @@
 .wpo-testimonial-content {
     padding: 60px 100px;
     background: #233849;
-    opacity: 0.9;
    
+   border-radius: 10px;
     border-top: 2px solid #c8a770;
     border-bottom: 2px solid #c8a770;
     position: relative;

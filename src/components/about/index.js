@@ -56,14 +56,14 @@ const AboutWrap = (props) => {
                                Social Media
                             </NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink
                                 className={classnames({ active: activeTab === '4' })}
                                 onClick={() => { toggle('4'); }}
                             >
                               Award
                             </NavLink>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                     <div className="wpo-about-wrap">
                     <TabContent activeTab={activeTab}>

@@ -1,7 +1,7 @@
 
 
 .wpo-testimonial-area {
-    background: #233849;
+    background: #f1f1f1;
     
 }
 .slick-prev, .slick-next{
@@ -60,10 +60,11 @@
     padding: 60px 100px;
     background: #233849;
     opacity: 0.9;
+   
     border-top: 2px solid #c8a770;
     border-bottom: 2px solid #c8a770;
     position: relative;
-    border-left: 2px solid #c8a770;
+    border-left: 3px solid #c8a770;
 
 }
 
@@ -90,7 +91,8 @@
     content: "";
     width: 12%;
     height: 100%;
-    background: rgb(200, 167, 112,.61);
+    background: #233849;
+    opacity: 0.9;
     border-top: 2px solid #233849;
     border-bottom: 2px solid #233849;
     top: 0;

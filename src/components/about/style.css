@@ -69,6 +69,17 @@
     color: #233849;
 }
 
+.wpo-social-text h2 a {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #233849;
+}
+
+.wpo-social-text h2 a:hover{
+    color: #c8a770;
+}
+
 .wpo-social-wrap {
     margin-bottom: 60px;
 }

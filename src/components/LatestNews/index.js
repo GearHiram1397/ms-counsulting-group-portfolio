@@ -23,11 +23,11 @@ const LatestBlog = () => {
                             </div>
                             <div className="wpo-blog-text">
                                 <ul>
-                                    <li><span>By Admin</span></li>
-                                    <li>. Nov 24, 2020</li>
+                                    <li><span>By HR Leaders</span></li>
+                                    <li>. May 31, 2022</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Travel is good for your soul</Link></h2>
-                                <Link to="/blog-details">Read More...</Link>
+                                <h2><Link to="//www.hrhelpboard.com/human-resource/articles/the-role-of-hr-leaders-in-promoting-employee-wellbeing-in-workplace-666.htm">The Role of HR Leaders in Promoting Employee Wellbeing in the Workplace</Link></h2>
+                                <Link to="//www.hrhelpboard.com/hr-articles.htm#google_vignette">Read More...</Link>
                             </div>
                         </div>
                     </div>
@@ -38,11 +38,11 @@ const LatestBlog = () => {
                             </div>
                             <div className="wpo-blog-text">
                                 <ul>
-                                    <li><span>By Admin</span></li>
-                                    <li>. Nov 24, 2020</li>
+                                    <li><span>By Caitlin Sinclair</span></li>
+                                    <li>. Nov 24, 2021</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Why do you need a HR consultant?</Link></h2>
-                                <Link to="/blog-details">Read More...</Link>
+                                <h2><Link to="//www.hrhelpboard.com/jobs-recruitment/articles/7-ways-to-design-a-better-hiring-process-251.htm">Seven Ways to Design a Better Hiring Process</Link></h2>
+                                <Link to="//www.hrhelpboard.com/hr-articles.htm#google_vignette">Read More...</Link>
                             </div>
                         </div>
                     </div>
@@ -53,11 +53,11 @@ const LatestBlog = () => {
                             </div>
                             <div className="wpo-blog-text">
                                 <ul>
-                                    <li><span>By Admin</span></li>
-                                    <li>. Nov 24, 2020</li>
+                                    <li><span>By HR Leaders </span></li>
+                                    <li>. Jun 24, 2022</li>
                                 </ul>
-                                <h2><Link to="/blog-details">Working with businesses</Link></h2>
-                                <Link to="/blog-details">Read More...</Link>
+                                <h2><Link to="//www.hrhelpboard.com/human-resource/articles/the-role-of-hr-in-remote-recruitment-360.htm">The Role of HR in Remote Recruitment</Link></h2>
+                                <Link to="//www.hrhelpboard.com/hr-articles.htm#google_vignette">Read More...</Link>
                             </div>
                         </div>
                     </div>

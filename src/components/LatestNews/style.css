@@ -5,6 +5,7 @@
 
 .wpo-blog-img img {
     border-radius: 5px;
+  
 }
 
 
@@ -12,10 +13,12 @@
     display: flex;
 }
 
+
 .wpo-blog-text h2 {
     font-size: 24px;
     color: #233849;
     line-height: 40px;
+    padding-left: 6px;
 }
 
 .wpo-blog-text h2 a {
@@ -48,14 +51,37 @@
 
 @media(max-width: 992px) {
     .wpo-blog-wrap {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+        background: #233849;
+        border-radius: 5px;
+    }
+
+
+    .wpo-blog-text{
+        border-top: 3px solid #c8a770;
+        margin-top: -40px;
+        padding: 20px 30px;
+        padding-top: 0;
+        background: #233849;
+        border-radius: 5px;
+    }
+
+    .wpo-blog-text h2 a {
+        color: #f1f1f1;
+      
+        line-height: 30px;
     }
 
     .wpo-blog-area {
-        padding-bottom: 70px;
+        padding-bottom: 10px;
     }
 
     .wpo-blog-img img {
         width: 100%;
+    }
+
+    .wpo-blog-text ul li {
+        padding-top: 10px;
+        color: #f1f1f1;
     }
 }

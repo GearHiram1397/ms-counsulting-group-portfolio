@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 const SocialBr = () => {
     return(
@@ -11,7 +11,7 @@ const SocialBr = () => {
                             <i className="fa fa-facebook"></i>
                         </div>
                         <div className="wpo-social-text">
-                            <h2>Facebook</h2>
+                            <h2><Link to="//www.facebook.com/msmanagementandconsulting">Facebook </Link></h2>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const SocialBr = () => {
                             <i className="fa fa-instagram" aria-hidden="true"></i>
                         </div>
                         <div className="wpo-social-text">
-                            <h2>Instagram</h2>
+                            <h2><Link to="//instagram.com/mary_splvd?igshid=NWRhNmQxMjQ=">Instagram </Link></h2>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const SocialBr = () => {
                             <i className="fa fa-twitter" aria-hidden="true"></i>
                         </div>
                         <div className="wpo-social-text">
-                            <h2>Twitter</h2>
+                            <h2><Link to="//twitter.com/MarySep04052919?s=20&t=6MUsWvrXAfPrlTvQBi_jZA">Twitter </Link> </h2>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const SocialBr = () => {
                             <i className="fa fa-linkedin" aria-hidden="true"></i>
                         </div>
                         <div className="wpo-social-text">
-                            <h2>Linkedin</h2>
+                            <h2> <Link to="//www.linkedin.com/in/mary-sepulveda-23ab6b138/">Linkedin</Link></h2>
                         </div>
                     </div>
                 </div>

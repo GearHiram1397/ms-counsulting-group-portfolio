@@ -82,4 +82,14 @@
         margin-left: 55px;
     }
     
+    .wpo-about-text h2 {
+        font-size: 35px;
+    }
+
+    .wpo-about-text p {
+        color:#233849;
+        font-size: 18px;
+        line-height: 2;
+       
+    }
 }

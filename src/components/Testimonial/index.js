@@ -28,7 +28,7 @@ class TestSlider extends Component {
                 <div className="container">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2 style={{color: "#f1f1f1"}}>Testimonial</h2>
+                            <h2 style={{color: "#233849"}}>Testimonial</h2>
                         </div>
                     </div>
                     <div className="wpo-testimonial-main">
@@ -36,7 +36,7 @@ class TestSlider extends Component {
                             <div className="wpo-testimonial-wrap">
                                 <div className="wpo-testimonial-item">
                                     <div className="wpo-testimonial-content">
-                                        <p style={{ border: '5px solid #c8a770', padding: '30px', fontSize: '30px', background: "#233849", fontFamily: 'italic'}}>  
+                                        <p style={{ border: '5px solid #c8a770', padding: '30px', fontSize: '30px', opacity: '0.9', background: "#233849", fontFamily: 'italic'}}>  
                                        " <span style={{ fontSize:"30px", fontWeight:"500"}}>5 STARS PAGE <br/>🌟🌟🌟🌟🌟</span> <br/>
                                         <span style={{fontSize:"26px", fontWeight:"500"}}> Professional Services </span> "</p>
                                         <div className="wpo-testimonial-item">

@@ -1,0 +1,50 @@
+
+.wpo-hero-style-3:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../images/slider/hero-shape-2.png') no-repeat right center;
+}
+
+.wpo-hero-style-3 .slide-caption h2,
+.wpo-hero-style-10 .slide-caption h2,
+.wpo-hero-style-4 .slide-caption h2,
+.wpo-hero-style-7 .slide-caption h2,
+.wpo-hero-style-6 .slide-caption h2 {
+    color: #121127;
+    line-height: 90px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.wpo-hero-style-3 .slide-caption span,
+.wpo-hero-style-6 .slide-caption span,
+.wpo-hero-style-10 .slide-caption span,
+.wpo-hero-style-7 .slide-caption span,
+.wpo-hero-style-4 .slide-caption span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.wpo-hero-style-3 .theme-btn,
+.wpo-hero-style-4 .theme-btn,
+.wpo-hero-style-7 .theme-btn {
+    background: transparent;
+    border: 1px solid #070640;
+    color: #070640;
+    margin-right: 15px;
+}
+
+.wpo-hero-style-3 .theme-btn:hover,
+.wpo-hero-style-7 .theme-btn:hover,
+.wpo-hero-style-4 .theme-btn:hover {
+    background: #fe3e57;
+    color: #fff;
+    border: 1px solid #fe3e57;
+}
+

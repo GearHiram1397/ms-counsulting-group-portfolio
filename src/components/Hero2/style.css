@@ -1,0 +1,406 @@
+
+.get-number a {
+    color: #fff;
+    font-size: 25px;
+    border-bottom: 1px solid #642138;
+}
+
+.wpo-hero-style-1 .slide-caption {
+    text-align: center;
+    max-width: 790px;
+    margin: auto;
+    float: none;
+}
+
+.wpo-hero-style-1 .slide-caption h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    line-height: 90px;
+}
+
+.wpo-hero-style-1 .slide-caption span {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.wpo-hero-style-1 .slide-caption .theme-btn {
+    background: #fff;
+    color: #070640;
+    border: none;
+    margin-right: 20px;
+}
+
+.wpo-hero-style-1 .slide-caption .theme-btn:hover {
+    background: #fe3e57;
+    color: #fff;
+}
+
+
+
+@media(max-width:1200px){
+    .get-number a {
+        font-size: 18px;
+    }
+    .get-number {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media(max-width:992px){
+    .get-number {
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*============================================
+    animated-css
+==============================================*/
+
+.bg-animate-shape {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-animate-shape:not(.hero) [class*=rect] {
+    z-index: 1;
+}
+
+.bg-animate-shape .shape1 {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    -webkit-animation: mover 15s infinite linear;
+    animation: mover 15s infinite linear
+}
+
+.bg-animate-shape .shape2,
+.bg-animate-shape .shape8,
+.bg-animate-shape .shape5,
+.bg-animate-shape .shape10,
+.bg-animate-shape .shape11,
+.bg-animate-shape .shape12,
+.bg-animate-shape .shape7,
+.bg-animate-shape .shape6 {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape6{
+    -webkit-animation-name: mover;
+    animation-name: mover;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape3 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape,
+.bg-animate-shape .shape4 {
+    position: absolute;
+    bottom: 23%;
+    left: 28%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape5 {
+    top: 18%;
+    right: 20%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape6 {
+    bottom: 15%;
+    top: auto;
+    right: 40%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape7 {
+    bottom: 35%;
+    top: auto;
+    right: 20%;
+}
+
+.bg-animate-shape .shape8 {
+    right: auto;
+    top: 10%;
+    left: 10%;
+}
+
+.bg-animate-shape .shape {
+    left: 20%;
+}
+
+.bg-animate-shape .shape10 {
+    right: auto;
+    left: 35%;
+}
+
+.bg-animate-shape .shape12 {
+    right: 40%;
+    top: auto;
+    bottom: 25%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape11 {
+    right: 10%;
+    top: 10%;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.bg-animate-shape .shape1{
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+@-webkit-keyframes mover {
+    0% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
+    }
+
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+        transform: translate(73px, -1px) rotate(36deg)
+    }
+
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+        transform: translate(141px, 72px) rotate(72deg)
+    }
+
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+        transform: translate(83px, 122px) rotate(108deg)
+    }
+
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+        transform: translate(-40px, 72px) rotate(144deg)
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+
+    0% {
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes rotate3d {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0)
+    }
+
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg)
+    }
+}
+
+
+@media(max-width: 1440px) {
+    .bg-animate-shape .shape {
+        left: 5%;
+    }
+
+    .bg-animate-shape .shape8 {
+        top: 2%;
+        left: -6%;
+    }
+
+    .bg-animate-shape .shape11 {
+        right: 3%;
+    }
+
+    .bg-animate-shape .shape10 {
+        top: 75%;
+    }
+
+    .bg-animate-shape .shape12 {
+        bottom: 10%;
+    }
+
+    .bg-animate-shape .shape4 {
+        bottom: 6%;
+    }
+
+    .wpo-hero-style-1.bg-animate-shape img {
+        max-width: 62%;
+    }
+}
+
+@media(max-width: 992px) {
+    .bg-animate-shape .shape7 {
+        animation: none;
+    }
+
+    .bg-animate-shape .shape7 {
+        bottom: 13%;
+        right: 8%;
+    }
+
+    .bg-animate-shape .shape8 {
+        top: -9%;
+        left: -6%;
+    }
+
+    .wpo-hero-style-1.bg-animate-shape img {
+        max-width: 52%;
+    }
+}
+
+@media(max-width: 767px) {
+    .bg-animate-shape img {
+        max-width: 52%;
+    }
+}
+
+@media(max-width: 530px) {
+    .bg-animate-shape img {
+        max-width: 42%;
+    }
+
+    .bg-animate-shape .shape8 {
+        top: -6%;
+        left: -7%;
+    }
+
+    .page-title {
+        height: 300px;
+    }
+
+    .bg-animate-shape .shape7 {
+        bottom: 66%;
+        right: -17%;
+    }
+
+    .bg-animate-shape .shape {
+        left: -20%;
+        bottom: 8%;
+    }
+
+    .bg-animate-shape .shape11 {
+        right: 3%;
+        top: 54%;
+    }
+
+    .bg-animate-shape .shape12 {
+        display: none;
+    }
+
+    .bg-animate-shape .shape2 {
+        right: 22%;
+        top: 5%;
+    }
+
+    .wpo-hero-style-1.bg-animate-shape img {
+        max-width: 42%;
+    }
+
+    .bg-animate-shape .shape1 {
+        top: 60%;
+    }
+}

@@ -35,7 +35,7 @@ const ContactArea = (props) => {
                                                 data-width="640"
                                                 data-height="480"
                                                 href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJkxRQXUqyAowRQiAVgydMY8U&key=AIzaSyCLuPmzykd7FQApEGm3fOjZcb-T7nGNW6c">
-                                                Austin, Texas
+                                            1218 Acanthus ST Pflugerville Texas
                                              </a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
@@ -59,7 +59,7 @@ const ContactArea = (props) => {
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2><a style={ { color: "#f1f1f1", textDecoration: 'none'}} href='tel:5128049875'>+512-804-9875</a></h2>
+                                            <h2><a style={ { color: "#f1f1f1", textDecoration: 'none'}} href='tel:5128049875'>+1 512-804-9875</a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img style={{height: '30px'}}  src={contact3} alt=""/>

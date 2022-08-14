@@ -61,8 +61,8 @@ const ProjectSingle = ( props ) => {
                             </div>
                         </div>
                         <div className="wpo-p-details-quote">
-                            <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary net Essential book for you. </p>
-                            <span>Robert Luee Happy</span>
+                            <p>We are a bilingual multi-disciplinary management consulting and learning organization that helps business leaders solve complex business problems. </p>
+                            <span>Marysabel Sepulveda</span>
                         </div>
                     </div>
                 </div>

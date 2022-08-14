@@ -1,0 +1,21 @@
+.wpo-hero-style-4 {
+    background: url('../../images/slider/slide-2.jpg') no-repeat right center;
+}
+
+@media(max-width:991px){
+    .wpo-hero-style-4{
+        height: 500px;
+    }
+
+    .wpo-hero-style-3 .slide-caption h2, 
+    .wpo-hero-style-10 .slide-caption h2, 
+    .wpo-hero-style-4 .slide-caption h2, 
+    .wpo-hero-style-7 .slide-caption h2, 
+    .wpo-hero-style-6 .slide-caption h2 {
+        color: #121127;
+        line-height: 68px;
+        margin-bottom: 25px;
+        margin-top: 0;
+        font-size: 46px;
+    }
+}

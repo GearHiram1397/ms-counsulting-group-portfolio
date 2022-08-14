@@ -1,0 +1,51 @@
+.wpo-hero-style-9 {
+    background: url('../../images/slider/hero-shape-3.png') no-repeat right center;
+    height: 990px;
+}
+
+.wpo-hero-style-9 .slide-caption p {
+    font-size: 16px;
+    color: #dddddd;
+}
+
+
+.wpo-hero-style-9 .theme-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.wpo-hero-style-9 .theme-btn:hover {
+    background: #fe3e57;
+    color: #fff;
+    border: 1px solid #fe3e57;
+}
+
+.wpo-hero-style-9 .slide-caption h2 {
+    line-height: 90px;
+    margin-top: 0;
+    margin-top: -70px;
+}
+
+@media(max-width:991px) {
+    .wpo-hero-style-9 .slide-caption h2 {
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width:530px) {
+    .wpo-hero-style-9 .slide-caption h2 {
+        line-height: 45px;
+    }
+
+    .wpo-hero-style-9 .slide-caption p {
+        line-height: 28px;
+    }
+
+    .wpo-hero-style-9 .theme-btn {
+        margin-right: 2px;
+    }
+
+}

@@ -1,0 +1,69 @@
+.wpo-hero-style-8 .slide-caption h2 {
+    margin-bottom: 25px;
+}
+
+.wpo-hero-style-8 .slide-caption span {
+    color: #999999;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 600;
+}
+
+.wpo-about-area-6 {
+    background: #111;
+}
+
+.wpo-about-area-6 .about-s2-wrap {
+    background: #222;
+}
+
+.wpo-about-area-6 .wpo-client-area {
+    background: #181818;
+}
+
+.wpo-about-area-6 .about-s2-img {
+    background: #fff;
+    padding: 80px;
+}
+
+.wpo-about-area-6 .about-s2-img img {
+    width: 100%;
+}
+
+.wpo-about-area-6 .wpo-about-text h2 {
+    line-height: 71px;
+    margin-bottom: 40px;
+}
+
+.wpo-about-area-6 .wpo-about-text {
+    padding-top: 75px;
+}
+@media(max-width: 1200px){
+    .wpo-about-area-6 .wpo-about-text {
+    padding-top: 10px;
+}
+.wpo-about-area-5 .wpo-about-text h2 {
+    font-size: 35px;
+}
+
+.wpo-about-area-5 .wpo-about-text {
+    padding-top: 0;
+}
+}
+
+@media(max-width: 991px){
+    .wpo-about-area-5 .wpo-about-text {
+        padding-top: 30px;
+    }
+
+    .wpo-about-area-6 .about-s2-img {
+        background: #fff;
+        padding: 20px;
+    }
+}
+
+.wpo-about-area-6 .wpo-client-area{
+    padding: 0;
+}
+
+

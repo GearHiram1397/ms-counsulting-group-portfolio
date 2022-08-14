@@ -3,14 +3,21 @@
     background: #f1f1f1;
 }
 
+.wpo-protfolio-text{
+    background-color: #233849;
+    opacity: 0.9;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
 .wpo-protfolio-text h2 {
     font-size: 40px;
-    color: #233849
+    color: #f1f1f1
 }
 
 .wpo-protfolio-text span {
     font-size: 18px;
-    color: #233849;
+    color: #F1F1F1;
     display: block;
     margin-bottom: 20px;
     font-weight: 300;
@@ -109,11 +116,37 @@
 
 @media(max-width: 991px) {
     .wpo-protfolio-single, .wpo-blog-img {
+        height: 300px;
+        width: 100%;
         margin-bottom: 30px;
     }
+
+    #dot{
+        margin-left: 0 !important;
+    }
+    .wpo-protfolio-text{
+        background-color: #233849;
+     
+    }
+    
+    .wpo-protfolio-text h2 {
+        font-size: 26px;
+    }
+    
+    .wpo-protfolio-text span {
+        font-size: 16px;
+      
+    }
+ 
 }
 
 @media(max-width: 767px) {
+
+    wpo-protfolio-img img {
+        margin-bottom: 30px;
+        height: 100px !important;
+        width: 100px;
+    }
     .wpo-protfolio-area .section-title {
         margin-bottom: 40px;
     }
@@ -135,5 +168,11 @@
 @media(max-width: 590px) {
     .protfolio-btn a {
         font-size: 20px;
+    }
+
+    wpo-protfolio-img img{
+        margin-bottom: 30px;
+        height: 100px !important;
+        width: 100px;
     }
 }

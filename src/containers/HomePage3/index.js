@@ -1,0 +1,26 @@
+import React, {Fragment} from 'react';
+import Navbar3 from '../../components/Navbar3'
+import Hero3 from '../../components/Hero3'
+import ServiceSection from '../../components/ServiceSection'
+import PorfolioSection2 from '../../components/PorfolioSection2'
+import ContactArea from '../../components/ContactArea'
+import Footer from '../../components/Footer'
+import TestSlider2 from '../../components/Testimonial2'
+import AboutFeatures from '../../components/AboutFeature'
+import FtLogo from '../../images/logo2.png'
+
+const HomePage3 =() => {
+    return(
+        <Fragment>
+            <Navbar3/>
+            <Hero3 />
+            <AboutFeatures/>
+            <ServiceSection serviceclass={'wpo-service-area-3 section-padding'}/>
+            <PorfolioSection2/>
+            <TestSlider2 testclass={'wpo-testimonial-area-3'}/>
+            <ContactArea contactclass={'wpo-contact-area3'}/>
+            <Footer Ftclass={'wpo-footer-area3'} ftLogo={FtLogo}/>
+        </Fragment>
+    )
+};
+export default HomePage3;

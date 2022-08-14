@@ -1,0 +1,16 @@
+@media(max-width:1500px){
+    .wpo-protfolio-text h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:575px){
+    .wpo-protfolio-img img {
+        min-height: 300px;
+        object-fit: cover;
+    }
+
+    .wpo-protfolio-text {
+        padding: 15px;
+    }
+}

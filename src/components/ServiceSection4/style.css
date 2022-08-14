@@ -1,0 +1,32 @@
+.work-area-3 {
+    background: #111;
+}
+
+.work-area-3 .work-wrap {
+    background: none;
+    border: 1px solid #636363;
+}
+
+.work-area-3 .work-icon .fi:before {
+    color: #fff;
+}
+
+.work-area-3 .work-content h2 {
+    color: #fff;
+}
+
+.work-area-3 .work-content p {
+    color: #fff;
+}
+
+.work-area-3 .work-content a {
+    color: #fff;
+}
+
+.work-area-3 .section-title-2 h2{
+    color: #fff;
+}
+
+.work-content h2{
+    margin-bottom: 15px;
+}

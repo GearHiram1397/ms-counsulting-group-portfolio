@@ -1,0 +1,28 @@
+.wpo-hero-style-5 {
+    background: url('../../images/slider/slide-3.jpg') no-repeat right center;
+    position: relative;
+}
+
+.wpo-hero-style-5:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(10, 9, 82, .5);
+}
+
+.wpo-hero-style-5 .bg-social ul li:first-child a {
+    border: 1px solid #8bc34a;
+    line-height: 55px;
+}
+
+.wpo-hero-style-5 .bg-social ul li:nth-child(2) a {
+    border: 1px solid #ff9800;
+    line-height: 55px;
+}
+
+.wpo-hero-style-5 .slide-caption p {
+    color: #fff;
+}

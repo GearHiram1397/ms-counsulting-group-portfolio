@@ -58,11 +58,13 @@
 
 .wpo-testimonial-content {
     padding: 60px 100px;
-    background: #c8a770;
+    background: #233849;
     opacity: 0.9;
-    border-top: 2px solid #233849;
-    border-bottom: 2px solid #233849;
+    border-top: 2px solid #c8a770;
+    border-bottom: 2px solid #c8a770;
     position: relative;
+    border-left: 2px solid #c8a770;
+
 }
 
 .wpo-testimonial-main {
@@ -181,6 +183,8 @@
 @media(max-width: 767px) {
     .wpo-testimonial-content {
         padding: 60px 40px;
+        border-right: 2px solid #c8a770;
+        border-left: 2px solid #c8a770;
     }
     .wpo-testimonial-area,
     .wpo-testimonial-area-2,
@@ -194,10 +198,13 @@
 @media(max-width: 590px) {
     .wpo-testimonial-content {
         padding: 30px 15px 60px;
+        border-right: 2px solid #c8a770;
+
     }
 
     .wpo-testimonial-area-5 .wpo-testimonial-content {
         padding: 60px 15px;
+        border-right: 2px solid #c8a770;
     }
 }
 

@@ -1,0 +1,60 @@
+.wpo-protfolio-area-2 {
+    background: #15142b;
+}
+
+.wpo-protfolio-area-2 .protfolio-btn,
+.wpo-protfolio-area-7 .protfolio-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wpo-protfolio-area-2 .wpo-protfolio-single,
+.wpo-protfolio-area-7 .wpo-protfolio-single {
+    margin-bottom: 30px;
+}
+
+
+.wpo-protfolio-area-2 .wpo-protfolio-img,
+.wpo-protfolio-area-7 .wpo-protfolio-img {
+    position: relative;
+}
+
+.wpo-protfolio-area-2 .wpo-protfolio-img:before,
+.wpo-protfolio-area-7 .wpo-protfolio-img:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: rgba(37, 34, 77, .4);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.wpo-protfolio-area-2 .wpo-protfolio-single:hover .wpo-protfolio-img:before,
+.wpo-protfolio-area-7 .wpo-protfolio-single:hover .wpo-protfolio-img:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wpo-protfolio-area-2 .wpo-protfolio-text,
+.wpo-protfolio-area-7 .wpo-protfolio-text {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    left: -30px;
+}
+
+.wpo-protfolio-area-2 .wpo-protfolio-single:hover .wpo-protfolio-text,
+.wpo-protfolio-area-7 .wpo-protfolio-single:hover .wpo-protfolio-text {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+
+.wpo-protfolio-area-4 {
+    background: #f9f9f9;
+}

@@ -36,8 +36,8 @@
 .responsivemenu li a,
 .responsivemenu li p{
     display: block;
-    padding: 14px 30px;
-    font-size: 26px;
+    padding: 10px 20px;
+    font-size: 24px;
     letter-spacing: 2px;
     text-transform: capitalize;
     text-decoration: none;

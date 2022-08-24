@@ -65,10 +65,10 @@ const Header2 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="clearfix"></div>
+                <div className="clearfix"> <MobileMenu/></div>
                 
             </div>
-            <MobileMenu/>
+           
         </div>
     </div>
     )

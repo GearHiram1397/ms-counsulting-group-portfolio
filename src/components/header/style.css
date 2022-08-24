@@ -20,15 +20,16 @@
 
 nav {
 	float: left;
-	padding-left: 82px;
+	
 }
 nav ul {
 	margin-top: -4px;
 	margin-bottom: 0;
+	margin-left: -30px;
 }
 nav > ul > li {
 	display: inline-block;
-	padding: 30px 19px;
+	padding: 30px 22px;
 	margin-right: -1px;
 	position: relative;
 }

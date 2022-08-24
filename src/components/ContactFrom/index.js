@@ -15,18 +15,8 @@ class ContactForm extends Component {
     }
 
 
-    changeHandler = (e) => {
-        const error = this.state.error;
-        error[e.target.name] = ''
-
-        this.setState({
-            [e.target.name]: e.target.value,
-            error
-        })
-    }
-
-    subimtHandler = (e) => {
-        e.preventDefault();
+    subimtHandler = () => {
+    
 
         const { name,
             email,

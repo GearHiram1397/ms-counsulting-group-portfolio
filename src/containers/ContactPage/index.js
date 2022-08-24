@@ -8,7 +8,6 @@ const ContactPage =() => {
     return(
         <Fragment>
             <Navbar5/>
-          
             <ContactPageSec/>
             <Footer Ftclass={'wpo-footer-area3'} ftLogo={FtLogo}/>
         </Fragment>

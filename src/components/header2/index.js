@@ -47,7 +47,7 @@ const Header2 = (props) => {
                     <Link to="/" title=""><img src={props.Logo} style={{height: "70px", marginTop: "-10px"}} alt=""/></Link>
                 </div>
                 <nav className="d-lg-block d-none header-b">
-                    <ul>
+                    <ul >
                     <li><Link className={home} onClick={handleHome} to="/home" title="">Home</Link>
                         </li>
                         <li><Link  className={about} to="/about" onClick={handleAbout} title="">About</Link></li>

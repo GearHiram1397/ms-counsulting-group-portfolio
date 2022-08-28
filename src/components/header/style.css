@@ -2,7 +2,7 @@
 
 .logo {
 	float: left;
-	width: 150px;
+	width: 100px;
 	margin-top: 17px;
 	margin-bottom: 10px;
 }
@@ -26,10 +26,10 @@ nav ul {
 	margin-top: -4px;
 	margin-bottom: 0;
 	margin-left: -30px;
-}
+} 
 nav > ul > li {
 	display: inline-block;
-	padding: 30px 22px;
+	padding: 29px 22px;
 	margin-right: -1px;
 	position: relative;
 }

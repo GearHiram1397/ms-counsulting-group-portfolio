@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Awimg1 from '../../images/about/award.jpg'
-import Awimg2 from '../../images/about/award2.jpg'
-import Awimg3 from '../../images/about/award3.jpg'
-import Awimg4 from '../../images/about/award4.jpg'
+import Awimg1 from '../../images/fotosdelportafolio/cert1.jpg'
+import Awimg2 from '../../images/fotosdelportafolio/cert2.jpg'
+import Awimg3 from '../../images/fotosdelportafolio/cert3.JPG'
+import Awimg4 from '../../images/fotosdelportafolio/cert4.jpg'
 
 const Award = () => {
     return(

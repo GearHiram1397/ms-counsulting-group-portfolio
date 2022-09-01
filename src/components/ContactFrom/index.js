@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import emailjs from 'emailjs-com';
 
 
 class ContactForm extends Component {
@@ -9,21 +10,46 @@ class ContactForm extends Component {
         email: '',
         subject: '',
         lastname: '',
-        events: '',
-        notes: '',
-        error: {}
+        message: '',
+        error: {},
+        success: false
+    }
+    changeHandler = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+            
+        })
     }
 
-
-    subimtHandler = () => {
+    subimtHandler = (e) => {
     
+        e.preventDefault();
 
         const { name,
             email,
             subject,
             lastname,
-            events,
-            notes, error } = this.state;
+            message,
+            error } = this.state;
+
+        emailjs.send('service_7vts88m', 'template_cijnuxr', this.state, 'dVer2d2aUvpE2NFPt')
+          .then(response => {
+            console.log('SUCCESS!', response);
+          
+
+            this.setState
+            ({
+                name: '',
+                email: '',
+                subject: '',
+                lastname: '',
+                message: '',
+                error: {},
+                success: true
+            })
+          }, error => {
+            console.log('FAILED...', error);
+          });
 
         if (name === '') {
             error.name = "Please enter your name";
@@ -37,12 +63,10 @@ class ContactForm extends Component {
         if (lastname === '') {
             error.lastname = "Please enter your Lastname";
         }
-        if (events === '') {
-            error.events = "Select your event list";
+        if (message === '') {
+            error.message = "Please enter a message";
         }
-        if (notes === '') {
-            error.notes = "Please enter your note";
-        }
+       
 
 
         if (error) {
@@ -54,20 +78,23 @@ class ContactForm extends Component {
             this.setState({
                 name: '',
                 email: '',
+                lastname: '',
                 subject: '',
-                events: '',
-                notes: '',
+                message: '',
                 error: {}
             })
         }
     }
+
+    
 
     render(){
         const { name,
             email,
             subject,
             lastname,
-            error } = this.state;
+            error,
+        success } = this.state;
 
         return(
             <form onSubmit={this.subimtHandler} className="form">
@@ -98,11 +125,12 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-field">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" onChange={this.changeHandler}placeholder="Message"></textarea>
                         </div>
                     </div>
                     <div className="col-lg-12">
                         <div className="form-submit">
+                            <p>{success ? 'Message was sent sucessfully': ''}</p>
                             <button type="submit" className="theme-btn">Send Message</button>
                         </div>
                     </div>

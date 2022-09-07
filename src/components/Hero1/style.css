@@ -8,7 +8,13 @@
     display: table-cell;
     vertical-align: middle;
 }
-
+/* .theme-btn, .theme-btn-s2 {
+    text-decoration: none;
+    }
+    for the mobile hero section
+    .wpo-hero-style-2 {
+    background-position-x: -100px;
+    } */
 .wpo-hero-style-3 .slide-caption,
 .wpo-hero-style-4 .slide-caption,
 .wpo-hero-style-5 .slide-caption,
@@ -380,6 +386,11 @@
 }
 
 @media(max-width: 767px) {
+
+    .wpo-hero-style-2{
+      
+     background-position-x: -100px !important;
+    }
     .wpo-hero-style-2 .slide-caption h2 {
        padding: 20px 20px;
         font-size: 35px;

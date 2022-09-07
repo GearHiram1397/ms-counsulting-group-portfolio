@@ -58,8 +58,8 @@ const ProjectSingle = ( props ) => {
                             </div>
                         </div>
                         <div className="wpo-p-details-quote">
-                            <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary net Essential book for you. </p>
-                            <span>Robert Luee Happy</span>
+                            <p>Take up one idea. Make that one idea your life--think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. </p>
+                            <span>Swami Vivekananda</span>
                         </div>
                     </div>
                 </div>

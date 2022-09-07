@@ -29,13 +29,8 @@ const ContactArea = (props) => {
                                     <div className="wpo-contact-info">
                                         <div className="info-item">
                                             <h2>  <a style={ { color: "#f1f1f1", textDecoration: "none" } } 
-                                                data-fancybox
-                                                data-type="iframe"
-                                                data-preload="false"
-                                                data-width="640"
-                                                data-height="480"
-                                                href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJkxRQXUqyAowRQiAVgydMY8U&key=AIzaSyCLuPmzykd7FQApEGm3fOjZcb-T7nGNW6c">
-                                            1218 Acanthus ST Pfl Tx
+                                                href="https://www.google.com/maps/place/Austin,+TX,+USA/@30.3074624,-98.0336011,10z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608">
+                                            1218 Acanthus ST Pf Tx
                                              </a></h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">

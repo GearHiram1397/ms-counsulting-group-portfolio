@@ -64,8 +64,8 @@ const ProjectSingle = ( props ) => {
                             </div>
                         </div>
                         <div className="wpo-p-details-quote">
-                            <p>Sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary net Essential book for you. </p>
-                            <span>Robert Luee Happy</span>
+                            <p>Success? I don't know what that word means. I'm happy. But success, that goes back to what in somebody's eyes success means. For me, success is inner peace. That's a good day for me. </p>
+                            <span>Denzel Washington</span>
                         </div>
                     </div>
                 </div>

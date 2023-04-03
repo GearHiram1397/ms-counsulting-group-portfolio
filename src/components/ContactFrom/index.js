@@ -32,7 +32,7 @@ class ContactForm extends Component {
             message,
             error } = this.state;
 
-        emailjs.send('service_7vts88m', 'template_cijnuxr', this.state, 'dVer2d2aUvpE2NFPt')
+        emailjs.send('service_7vts88m', 'template_cijnuxr', this.state, 'pQNJlSmhoI9c-46yK')
           .then(response => {
             console.log('SUCCESS!', response);
           
